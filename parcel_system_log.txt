@@ -1,0 +1,61 @@
+Loaded parcel: X009
+Loaded parcel: X020
+Loaded parcel: X025
+Loaded parcel: X036
+Loaded parcel: X064
+Loaded parcel: X086
+Loaded parcel: X121
+Loaded parcel: X198
+Loaded parcel: X213
+Loaded parcel: X214
+Loaded parcel: X278
+Loaded parcel: X285
+Loaded parcel: X309
+Loaded parcel: X316
+Loaded parcel: X386
+Loaded parcel: X475
+Loaded parcel: X507
+Loaded parcel: X521
+Loaded parcel: X540
+Loaded parcel: X552
+Loaded parcel: X606
+Loaded parcel: X682
+Loaded parcel: X720
+Loaded parcel: X733
+Loaded parcel: X746
+Loaded parcel: X780
+Loaded parcel: X782
+Loaded parcel: X857
+Loaded parcel: X904
+Loaded parcel: X919
+Added customer to queue: Andrew Robertson
+Added customer to queue: Ann Jones
+Added customer to queue: Blair Foster
+Added customer to queue: Bob Dawson
+Added customer to queue: Chris Smith
+Added customer to queue: Dave Jackson
+Added customer to queue: David Hunter
+Added customer to queue: Donald Murray
+Added customer to queue: Fiona Thoms
+Added customer to queue: Gillian Hamilton
+Added customer to queue: Harry Johnston
+Added customer to queue: Helen Webster
+Added customer to queue: Jack Houston
+Added customer to queue: Jo Hill
+Added customer to queue: Joe Woods
+Added customer to queue: John Brown
+Added customer to queue: Judy Hilman
+Added customer to queue: Keith Burns
+Added customer to queue: Lily Watson
+Added customer to queue: Lucy Grey
+Added customer to queue: Mary Brown
+Added customer to queue: Pamela Field
+Added customer to queue: Peter White
+Added customer to queue: Robert Murray
+Added customer to queue: Susan Turner
+Added customer to queue: Thomas Young
+Added customer to queue: Tim Smith
+Added customer to queue: Tony Lawson
+Added customer to queue: Ursula Milton
+Added customer to queue: Viola Nicholson
+Application closed
