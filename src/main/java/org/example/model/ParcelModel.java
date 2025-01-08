@@ -25,12 +25,23 @@ public class ParcelModel {
             listener.modelChanged();
         }
     }
+
     public void processNextCustomer() {
         currentCustomer = customerQueue.removeCustomer();
         if (currentCustomer != null) {
             currentParcel = parcelMap.getParcel(currentCustomer.getParcelId());
             notifyListeners();
         }
+    }
+
+    public void addCustomer(Customer customer) {
+        customerQueue.addCustomer(customer);
+        notifyListeners();
+    }
+
+    public void addParcel(Parcel parcel) {
+        parcelMap.addParcel(parcel);
+        notifyListeners();
     }
 
     public Customer getCurrentCustomer() { return currentCustomer; }

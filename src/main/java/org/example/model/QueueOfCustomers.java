@@ -1,6 +1,8 @@
 package org.example.model;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class QueueOfCustomers {
@@ -24,5 +26,9 @@ public class QueueOfCustomers {
 
     public int size() {
         return customerQueue.size();
+    }
+
+    public List<Customer> getCustomers() {
+        return new ArrayList<>(customerQueue);
     }
 }

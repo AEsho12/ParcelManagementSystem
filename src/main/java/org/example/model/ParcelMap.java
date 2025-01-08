@@ -1,5 +1,6 @@
 package org.example.model;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,5 +21,9 @@ public class ParcelMap {
 
     public boolean containsParcel(String id) {
         return parcels.containsKey(id);
+    }
+
+    public Collection<Parcel> getAllParcels() {
+        return parcels.values();
     }
 }

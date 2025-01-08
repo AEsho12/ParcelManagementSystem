@@ -66,7 +66,7 @@ public class Manager {
 
     public static void main(String[] args) {
         Manager manager = new Manager();
-        manager.loadData("Custs.csv", "Parcels.csv");
+        manager.loadData("src/main/resources/Custs.csv", "src/main/resources/Parcels.csv");
         manager.start();
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
