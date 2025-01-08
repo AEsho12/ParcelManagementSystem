@@ -30,6 +30,13 @@ public class ParcelModel {
         currentCustomer = customerQueue.removeCustomer();
         if (currentCustomer != null) {
             currentParcel = parcelMap.getParcel(currentCustomer.getParcelId());
+            if (currentParcel != null) {
+                parcelMap.removeParcel(currentParcel.getId());
+            }
+            notifyListeners();
+        } else {
+            currentCustomer = null;
+            currentParcel = null;
             notifyListeners();
         }
     }

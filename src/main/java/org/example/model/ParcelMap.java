@@ -23,6 +23,10 @@ public class ParcelMap {
         return parcels.containsKey(id);
     }
 
+    public void removeParcel(String id) {
+        parcels.remove(id);
+    }
+
     public Collection<Parcel> getAllParcels() {
         return parcels.values();
     }

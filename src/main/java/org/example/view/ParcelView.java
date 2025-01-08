@@ -20,7 +20,6 @@ public class ParcelView extends JFrame implements ModelListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-
         createQueuePanel();
         createParcelPanel();
         createProcessingPanel();
@@ -74,7 +73,6 @@ public class ParcelView extends JFrame implements ModelListener {
     }
 
     private void updateDisplay() {
-
         Customer currentCustomer = model.getCurrentCustomer();
         Parcel currentParcel = model.getCurrentParcel();
 
@@ -85,8 +83,9 @@ public class ParcelView extends JFrame implements ModelListener {
                             "Weight: " + currentParcel.getWeight() + "\n" +
                             "Size: " + currentParcel.getSize()
             );
+        } else {
+            currentProcessingArea.setText("No customers in queue\nAll parcels processed");
         }
-
 
         StringBuilder queueText = new StringBuilder("Customers in Queue:\n\n");
         QueueOfCustomers queue = model.getCustomerQueue();
@@ -97,7 +96,6 @@ public class ParcelView extends JFrame implements ModelListener {
                     .append("\n");
         }
         queueArea.setText(queueText.toString());
-
 
         StringBuilder parcelsText = new StringBuilder("Available Parcels:\n\n");
         ParcelMap parcelMap = model.getParcelMap();
